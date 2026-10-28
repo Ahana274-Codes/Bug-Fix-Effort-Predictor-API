@@ -1,4 +1,4 @@
-```python
+python
 from pathlib import Path
 
 import joblib
