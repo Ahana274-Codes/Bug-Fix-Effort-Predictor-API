@@ -1,4 +1,3 @@
-python
 from pathlib import Path
 
 import joblib
@@ -177,4 +176,3 @@ def predict_bug(report: BugReport):
             status_code=400,
             detail=str(exc),
         ) from exc
-```
